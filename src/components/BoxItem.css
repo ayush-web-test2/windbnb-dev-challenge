@@ -1,0 +1,131 @@
+.box_item {
+    height: 40vh;
+    width: 27vw;
+    justify-self: center;
+}
+
+.box_item>img {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.box_item_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4% 0;
+}
+
+.box_item_info>h2 {
+    color: #B1B1B1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.box_item_info>h2>span {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.box_item_info>p {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+.box_item_info>p>svg {
+    color: #EB5757;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Design for <= 500px devices */
+@media screen and (max-width:500px) {
+
+    .box_item {
+        width: -webkit-fill-available;
+        height: auto;
+    }
+
+    .box_item>img {
+        height: 30vh;
+    }
+
+    .box_item_info>h2>span {
+        font-size: 12px;
+    }
+
+}
+
+
+
+/* Design for 501-600px devices */
+@media screen and (min-width:501px) and (max-width:600px) {
+
+    .box_item {
+        width: -webkit-fill-available;
+        height: auto;
+    }
+
+    .box_item>img {
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .box_item_info>h2>span {
+        font-size: 12px;
+    }
+
+}
+
+
+/* Design for 601-800px devices */
+@media screen and (min-width:601px) and (max-width:800px) {
+
+    .box_item {
+        width: -webkit-fill-available;
+        height: auto;
+    }
+
+    .box_item>img {
+        height: 45vh;
+        object-fit: cover;
+    }
+
+
+}
+
+
+/* Design for 801-1000px devices */
+@media screen and (min-width:801px) and (max-width:1000px) {
+
+    .box_item {
+        width: -webkit-fill-available;
+        height: auto;
+    }
+
+    .box_item>img {
+        height: 60vh;
+        object-fit: cover;
+    }
+
+}
+
+
+/* Design for 1001-1100px devices */
+@media screen and (min-width:1001px) and (max-width:1300px) {
+
+    .box_item {
+        width: 35vw;
+    }
+
+}

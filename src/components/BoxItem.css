@@ -19,22 +19,22 @@
 }
 
 .box_item_info>h2 {
-    color: #B1B1B1;
+    color: #828282;
     font-size: 14px;
     font-weight: 500;
 }
 
 .box_item_info>h2>span {
-    color: black;
+    color: #4F4F4F;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid #4F4F4F;
     border-radius: 30px;
     padding: 5px;
     font-size: 12px;
 }
 
 .box_item_info>p {
-    color: black;
+    color: #4F4F4F;
     font-size: 14px;
     font-weight: 500;
     display: inline-flex;
@@ -49,12 +49,22 @@
     font-weight: 600;
 }
 
+.box_item>p {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 /* Design for <= 500px devices */
 @media screen and (max-width:500px) {
 
     .box_item {
         width: -webkit-fill-available;
         height: auto;
+    }
+
+    .box_item_info>h2 {
+        line-height: 30px;
     }
 
     .box_item>img {

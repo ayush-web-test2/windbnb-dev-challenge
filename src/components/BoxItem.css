@@ -30,6 +30,7 @@
     border: 1px solid black;
     border-radius: 30px;
     padding: 5px;
+    font-size: 12px;
 }
 
 .box_item_info>p {
@@ -121,8 +122,8 @@
 }
 
 
-/* Design for 1001-1100px devices */
-@media screen and (min-width:1001px) and (max-width:1300px) {
+/* Design for 1001-1250px devices */
+@media screen and (min-width:1001px) and (max-width:1250px) {
 
     .box_item {
         width: 35vw;
